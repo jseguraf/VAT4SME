@@ -1,0 +1,151 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Authentication (Security Enablers)</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Authentication (Security Enablers)</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DiagramModelGroup"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelGroup" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-9e4086c905a3436db940ce6d171681fd.html" target="element"> Authentication Middleware </a> </td>
+											    <td> <a href="../elements/id-9e4086c905a3436db940ce6d171681fd.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-a17209500b2f48609e43f89a9c4008c9.html" target="element"> Authentication Service </a> </td>
+													    <td> <a href="../elements/id-a17209500b2f48609e43f89a9c4008c9.html" target="element" class="i18n-elementtype-ApplicationService">
+													    </a> </td>
+													</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-21a6b57c0b1d4e35b5bcab90af9f7737.html" target="element"> Authentication </a> </td>
+															    <td> <a href="../elements/id-21a6b57c0b1d4e35b5bcab90af9f7737.html" target="element" class="i18n-elementtype-ApplicationFunction">
+															    </a> </td>
+															</tr>
+
+													
+											
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-3a7e3a702d7247e08a707beea5b497c6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3a7e3a702d7247e08a707beea5b497c6.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9e4086c905a3436db940ce6d171681fd.html" target="element"> Authentication Middleware </a> </td>
+																		<td> <a href="../elements/id-d23c99a662fb4611b5d9df01ca3a3e6e.html" target="element"> Audit Service </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-0ed1c6c994404fd4ad4eb5c0a9e33360.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-0ed1c6c994404fd4ad4eb5c0a9e33360.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9e4086c905a3436db940ce6d171681fd.html" target="element"> Authentication Middleware </a> </td>
+																		<td> <a href="../elements/id-a17209500b2f48609e43f89a9c4008c9.html" target="element"> Authentication Service </a> </td>
+																	</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-edc075a2e7ce4e7396c2d3e65c38bddc.html" target="element"> human request </a> </td>
+																						<td> <a href="../elements/id-edc075a2e7ce4e7396c2d3e65c38bddc.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-21a6b57c0b1d4e35b5bcab90af9f7737.html" target="element"> Authentication </a> </td>
+																						<td> <a href="../elements/id-5d3556b374424ccc9f34b8de53c33dc6.html" target="element"> VAT4SME HTML Human Interface </a> </td>
+																					</tr>
+																					<tr>
+																						<td> <a href="../elements/id-d66de11ea184419380690dcd563d4977.html" target="element"> machine request </a> </td>
+																						<td> <a href="../elements/id-d66de11ea184419380690dcd563d4977.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-21a6b57c0b1d4e35b5bcab90af9f7737.html" target="element"> Authentication </a> </td>
+																						<td> <a href="../elements/id-7989734a23d94867a2152c9962a82bb7.html" target="element"> VAT4SME GraphQL Service Interface </a> </td>
+																					</tr>
+
+													
+											
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
